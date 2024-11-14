@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\bin\Debug\net8.0\TermloFogyaszto1.exe
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\bin\Debug\net8.0\TermloFogyaszto1.deps.json
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\bin\Debug\net8.0\TermloFogyaszto1.runtimeconfig.json
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\bin\Debug\net8.0\TermloFogyaszto1.dll
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\bin\Debug\net8.0\TermloFogyaszto1.pdb
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.AssemblyInfo.cs
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.dll
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\refint\TermloFogyaszto1.dll
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.pdb
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\TermloFogyaszto1.genruntimeconfig.cache
+C:\xampp\KSanyi\TermloFogyaszto1\TermloFogyaszto1\obj\Debug\net8.0\ref\TermloFogyaszto1.dll

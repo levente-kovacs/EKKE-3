@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\bin\Debug\net8.0\TermeloFogyasztoTask.exe
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\bin\Debug\net8.0\TermeloFogyasztoTask.deps.json
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\bin\Debug\net8.0\TermeloFogyasztoTask.runtimeconfig.json
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\bin\Debug\net8.0\TermeloFogyasztoTask.dll
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\bin\Debug\net8.0\TermeloFogyasztoTask.pdb
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.AssemblyInfo.cs
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.dll
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\refint\TermeloFogyasztoTask.dll
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.pdb
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\TermeloFogyasztoTask.genruntimeconfig.cache
+C:\Users\user\source\repos\TermeloFogyasztoTask\TermeloFogyasztoTask\obj\Debug\net8.0\ref\TermeloFogyasztoTask.dll
