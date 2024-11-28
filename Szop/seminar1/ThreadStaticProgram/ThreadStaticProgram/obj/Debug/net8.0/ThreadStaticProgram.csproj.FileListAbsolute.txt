@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\bin\Debug\net8.0\ThreadStaticProgram.exe
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\bin\Debug\net8.0\ThreadStaticProgram.deps.json
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\bin\Debug\net8.0\ThreadStaticProgram.runtimeconfig.json
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\bin\Debug\net8.0\ThreadStaticProgram.dll
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\bin\Debug\net8.0\ThreadStaticProgram.pdb
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.AssemblyInfo.cs
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.dll
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\refint\ThreadStaticProgram.dll
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.pdb
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ThreadStaticProgram.genruntimeconfig.cache
+C:\xampp\KSanyi\ThreadStaticProgram\ThreadStaticProgram\obj\Debug\net8.0\ref\ThreadStaticProgram.dll

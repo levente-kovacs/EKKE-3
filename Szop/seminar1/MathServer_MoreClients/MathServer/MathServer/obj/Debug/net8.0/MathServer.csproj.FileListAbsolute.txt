@@ -1,0 +1,15 @@
+C:\xampp\KSanyi\MathServer\MathServer\bin\Debug\net8.0\MathServer.exe
+C:\xampp\KSanyi\MathServer\MathServer\bin\Debug\net8.0\MathServer.dll.config
+C:\xampp\KSanyi\MathServer\MathServer\bin\Debug\net8.0\MathServer.deps.json
+C:\xampp\KSanyi\MathServer\MathServer\bin\Debug\net8.0\MathServer.runtimeconfig.json
+C:\xampp\KSanyi\MathServer\MathServer\bin\Debug\net8.0\MathServer.dll
+C:\xampp\KSanyi\MathServer\MathServer\bin\Debug\net8.0\MathServer.pdb
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.AssemblyInfo.cs
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.dll
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\refint\MathServer.dll
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.pdb
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\MathServer.genruntimeconfig.cache
+C:\xampp\KSanyi\MathServer\MathServer\obj\Debug\net8.0\ref\MathServer.dll

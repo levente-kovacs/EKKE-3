@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Flag\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B853A003-A7E8-4F9E-8DBA-8B897EB974D3}|Flag\\Flag.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\zh_gyak\\flag\\flag\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B853A003-A7E8-4F9E-8DBA-8B897EB974D3}|Flag\\Flag.csproj|solutionrelative:flag\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B853A003-A7E8-4F9E-8DBA-8B897EB974D3}|Flag\\Flag.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\zh_gyak\\flag\\flag\\flagclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B853A003-A7E8-4F9E-8DBA-8B897EB974D3}|Flag\\Flag.csproj|solutionrelative:flag\\flagclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlagClass.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Flag\\Flag\\FlagClass.cs",
+              "RelativeDocumentMoniker": "Flag\\FlagClass.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Flag\\Flag\\FlagClass.cs",
+              "RelativeToolTip": "Flag\\FlagClass.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:09:25.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Flag\\Flag\\Program.cs",
+              "RelativeDocumentMoniker": "Flag\\Program.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Flag\\Flag\\Program.cs",
+              "RelativeToolTip": "Flag\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:08:11.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

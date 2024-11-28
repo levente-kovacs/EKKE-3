@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\Socket1\Socket1\bin\Debug\net8.0\Socket1.exe
+C:\xampp\KSanyi\Socket1\Socket1\bin\Debug\net8.0\Socket1.deps.json
+C:\xampp\KSanyi\Socket1\Socket1\bin\Debug\net8.0\Socket1.runtimeconfig.json
+C:\xampp\KSanyi\Socket1\Socket1\bin\Debug\net8.0\Socket1.dll
+C:\xampp\KSanyi\Socket1\Socket1\bin\Debug\net8.0\Socket1.pdb
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.AssemblyInfo.cs
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.dll
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\refint\Socket1.dll
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.pdb
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\Socket1.genruntimeconfig.cache
+C:\xampp\KSanyi\Socket1\Socket1\obj\Debug\net8.0\ref\Socket1.dll

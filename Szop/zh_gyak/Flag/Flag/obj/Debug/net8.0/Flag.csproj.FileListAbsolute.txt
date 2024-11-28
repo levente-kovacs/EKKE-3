@@ -1,0 +1,15 @@
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\bin\Debug\net8.0\Flag.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\bin\Debug\net8.0\Flag.deps.json
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\bin\Debug\net8.0\Flag.runtimeconfig.json
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\bin\Debug\net8.0\Flag.dll
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\bin\Debug\net8.0\Flag.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.AssemblyInfoInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.AssemblyInfo.cs
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.csproj.CoreCompileInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.sourcelink.json
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.dll
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\refint\Flag.dll
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\Flag.genruntimeconfig.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Flag\Flag\obj\Debug\net8.0\ref\Flag.dll

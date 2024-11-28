@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\bin\Debug\net8.0\ProducerConsumerBlocking.exe
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\bin\Debug\net8.0\ProducerConsumerBlocking.deps.json
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\bin\Debug\net8.0\ProducerConsumerBlocking.runtimeconfig.json
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\bin\Debug\net8.0\ProducerConsumerBlocking.dll
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\bin\Debug\net8.0\ProducerConsumerBlocking.pdb
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.AssemblyInfo.cs
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.dll
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\refint\ProducerConsumerBlocking.dll
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.pdb
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ProducerConsumerBlocking.genruntimeconfig.cache
+C:\xampp\KSanyi\ProducerConsumerBlocking\ProducerConsumerBlocking\obj\Debug\net8.0\ref\ProducerConsumerBlocking.dll

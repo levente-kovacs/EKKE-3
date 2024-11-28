@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\SumOfArray\SumOfArray\bin\Debug\net8.0\SumOfArray.exe
+C:\xampp\KSanyi\SumOfArray\SumOfArray\bin\Debug\net8.0\SumOfArray.deps.json
+C:\xampp\KSanyi\SumOfArray\SumOfArray\bin\Debug\net8.0\SumOfArray.runtimeconfig.json
+C:\xampp\KSanyi\SumOfArray\SumOfArray\bin\Debug\net8.0\SumOfArray.dll
+C:\xampp\KSanyi\SumOfArray\SumOfArray\bin\Debug\net8.0\SumOfArray.pdb
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.AssemblyInfo.cs
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.dll
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\refint\SumOfArray.dll
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.pdb
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\SumOfArray.genruntimeconfig.cache
+C:\xampp\KSanyi\SumOfArray\SumOfArray\obj\Debug\net8.0\ref\SumOfArray.dll

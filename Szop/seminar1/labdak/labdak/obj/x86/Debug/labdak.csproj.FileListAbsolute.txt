@@ -1,0 +1,4 @@
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\bin\Debug\labdak.exe
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\bin\Debug\labdak.pdb
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\obj\x86\Debug\labdak.exe
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\obj\x86\Debug\labdak.pdb

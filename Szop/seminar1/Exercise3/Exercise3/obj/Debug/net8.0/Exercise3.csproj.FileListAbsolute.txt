@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\Exercise3\Exercise3\bin\Debug\net8.0\Exercise3.exe
+C:\xampp\KSanyi\Exercise3\Exercise3\bin\Debug\net8.0\Exercise3.deps.json
+C:\xampp\KSanyi\Exercise3\Exercise3\bin\Debug\net8.0\Exercise3.runtimeconfig.json
+C:\xampp\KSanyi\Exercise3\Exercise3\bin\Debug\net8.0\Exercise3.dll
+C:\xampp\KSanyi\Exercise3\Exercise3\bin\Debug\net8.0\Exercise3.pdb
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.AssemblyInfo.cs
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.dll
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\refint\Exercise3.dll
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.pdb
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\Exercise3.genruntimeconfig.cache
+C:\xampp\KSanyi\Exercise3\Exercise3\obj\Debug\net8.0\ref\Exercise3.dll

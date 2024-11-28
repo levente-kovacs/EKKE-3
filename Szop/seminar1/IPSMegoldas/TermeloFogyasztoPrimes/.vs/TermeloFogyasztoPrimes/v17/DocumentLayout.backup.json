@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\!KSanyi\\EKKE\\SOP\\2024ZHk\\TermeloFogyasztoPrimes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AFC49C-0F38-4760-BD12-83DD22A4CB50}|TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj|c:\\!ksanyi\\ekke\\sop\\2024zhk\\termelofogyasztoprimes\\termelofogyasztoprimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AFC49C-0F38-4760-BD12-83DD22A4CB50}|TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj|solutionrelative:termelofogyasztoprimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\SOP\\2024ZHk\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\Program.cs",
+              "RelativeDocumentMoniker": "TermeloFogyasztoPrimes\\Program.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\SOP\\2024ZHk\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\Program.cs*",
+              "RelativeToolTip": "TermeloFogyasztoPrimes\\Program.cs*",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAwMMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T09:15:29.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

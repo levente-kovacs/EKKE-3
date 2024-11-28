@@ -1,0 +1,17 @@
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\bin\Debug\labdak.exe
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\bin\Debug\labdak.pdb
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\obj\x86\Debug\labdak.exe
+D:\!EKF\Interneteszkozei\GyakorlatraProgik\labdak\labdak\obj\x86\Debug\labdak.pdb
+C:\xampp\KSanyi\labdak\labdak\bin\Debug\labdak.exe
+C:\xampp\KSanyi\labdak\labdak\bin\Debug\labdak.pdb
+C:\xampp\KSanyi\labdak\labdak\obj\x86\Debug\labdak.csproj.AssemblyReference.cache
+C:\xampp\KSanyi\labdak\labdak\obj\x86\Debug\labdak.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\labdak\labdak\obj\x86\Debug\labdak.exe
+C:\xampp\KSanyi\labdak\labdak\obj\x86\Debug\labdak.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\bin\Debug\labdak.exe.config
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\bin\Debug\labdak.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\bin\Debug\labdak.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\obj\x86\Debug\labdak.csproj.AssemblyReference.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\obj\x86\Debug\labdak.csproj.CoreCompileInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\obj\x86\Debug\labdak.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\gyak1\labdak\labdak\obj\x86\Debug\labdak.pdb

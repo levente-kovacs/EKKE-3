@@ -1,0 +1,14 @@
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\bin\Debug\net8.0\ProducerConsumer1.exe
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\bin\Debug\net8.0\ProducerConsumer1.deps.json
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\bin\Debug\net8.0\ProducerConsumer1.runtimeconfig.json
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\bin\Debug\net8.0\ProducerConsumer1.dll
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\bin\Debug\net8.0\ProducerConsumer1.pdb
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.AssemblyInfoInputs.cache
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.AssemblyInfo.cs
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.csproj.CoreCompileInputs.cache
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.dll
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\refint\ProducerConsumer1.dll
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.pdb
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ProducerConsumer1.genruntimeconfig.cache
+C:\xampp\KSanyi\ProducerConsumer1\ProducerConsumer1\obj\Debug\net8.0\ref\ProducerConsumer1.dll

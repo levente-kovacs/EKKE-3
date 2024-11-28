@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\KSanyi\\Socket1Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6A1AD9-285E-4849-8331-2114F117BEE7}|Socket1Client\\Socket1Client.csproj|c:\\xampp\\ksanyi\\socket1client\\socket1client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6A1AD9-285E-4849-8331-2114F117BEE7}|Socket1Client\\Socket1Client.csproj|solutionrelative:socket1client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\KSanyi\\Socket1Client\\Socket1Client\\Program.cs",
+              "RelativeDocumentMoniker": "Socket1Client\\Program.cs",
+              "ToolTip": "C:\\xampp\\KSanyi\\Socket1Client\\Socket1Client\\Program.cs",
+              "RelativeToolTip": "Socket1Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T08:57:15.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

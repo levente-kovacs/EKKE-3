@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\bin\Debug\net8.0\MathServer_Client.exe
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\bin\Debug\net8.0\MathServer_Client.deps.json
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\bin\Debug\net8.0\MathServer_Client.runtimeconfig.json
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\bin\Debug\net8.0\MathServer_Client.dll
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\bin\Debug\net8.0\MathServer_Client.pdb
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.AssemblyInfo.cs
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.dll
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\refint\MathServer_Client.dll
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.pdb
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\MathServer_Client.genruntimeconfig.cache
+C:\Users\user\source\repos\MathServer_Client\MathServer_Client\obj\Debug\net8.0\ref\MathServer_Client.dll
