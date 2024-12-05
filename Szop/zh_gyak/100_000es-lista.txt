@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+/*
+Készítsen egy olyan programot, amelyben 2 metódus külön szálon futva egy 
+listához ad elemeket, illetve vesz ki belőle. 
+Az első metódus 100.000 darab random számot ad a listához, ezek a számok 
+pozítív egész számok, maximum 4 jegyűek! 
+A második szál megkeresi (0. indextől kezdve) az első legalább 3 jegyű számot, 
+és helyére a listába -1-et ír. Ha nem talál ilyet,  
+akkor a szál azonnal álljon le! 
+A főprogram futtassa le a két metódust "párhuzamosan" és írja ki, hogy hány 
+szám maradt a listában, és ezek közül hány darab az egyjegyű szám! 
+Az első metódus fusson a legmagasabb prioritással, a második a 
+legalacsonyabbal! A lenti megoldást javítsa ki a specifikáció alapján! A felesleges 
+objektumokat törölje!  
+aries.ektf.hu/~ksanyi/SOP/2024/chatgpt3.zip
+*/
+namespace Feladat03 {
+    class Program {
+        static List<int> numbersList = new List<int>();  // Shared list to hold numbers
+        
+        static void Main(string[] args) {
+            // Create two threads: one for adding and one for removing elements
+            Thread addThread = new Thread(AddNumbers);
+            Thread removeThread = new Thread(RemoveNumbers);
+
+            // Set priorities: addThread has highest, removeThread has lowest
+            addThread.Priority = ThreadPriority.Highest;
+            removeThread.Priority = ThreadPriority.Lowest;
+
+            // Start both threads
+            addThread.Start();
+            removeThread.Start();
+
+            // Wait for both threads to complete
+            addThread.Join();
+            removeThread.Join();
+
+            // Count single-digit numbers left in the list
+            int singleDigitCount = numbersList.Count(num => num >= 0 && num < 10);
+
+            // Output the results
+            Console.WriteLine($"Total numbers left in the list: {numbersList.Count - singleDigitCount}");
+            Console.WriteLine($"Total single-digit numbers left: {singleDigitCount}");
+        }
+        // Method to add 100,000 random numbers (up to 4 digits) to the list
+        static void AddNumbers() {
+            Random rand = new Random();
+            for (int i = 0; i < 100000; i++) {
+                lock (numbersList) {
+                    numbersList.Add(rand.Next(1, 10000));  // Add a random number (1 to 9999)
+                }
+            }
+        }
+        // Method to remove the first number with at least 3 digits by replacing it with -1
+        static void RemoveNumbers() {
+            bool stopRemoveThread = false;            // Flag to stop the removal thread
+            while (!stopRemoveThread) {
+                lock (numbersList) {
+                    // Search for the first number with at least 3 digits
+                    for (int i = 0; i < numbersList.Count; i++) {
+                        if (numbersList[i] >= 100) {
+                            // Replace the number with -1
+                            numbersList[i] = -1;
+                            Console.WriteLine($"Replaced element at index {i} with -1.");
+                            break;
+                        }
+                    }
+
+                    // Check if no 3-digit numbers are left
+                    if (!numbersList.Any(num => num >= 100)) {
+                        stopRemoveThread = true;
+                    }
+                }
+            }
+        }
+    }
+}

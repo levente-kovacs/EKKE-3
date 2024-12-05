@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+/*
+Páros – páratlan (ThreadPool, Task és Parallel.for) -20 pont 
+Deklaráljon egy N elemű vektort, töltse fel a vektort (1-N közötti) 
+véletlenszámokkal a Main-ben! (100-9999 közé eső számokkal.) A vektor neve: 
+numbers. 
+Két szál segítségével számolja meg, hogy a vektorban hány néggyel osztható, de 
+hárommal nem osztható, 4 jegyű szám van. Ehhez egy változót használjon, 
+mindkét szál ezt a változót használja. Az egyik a vektor elejéről, a másik a 
+vektor végétől kezdje el a keresést. Nem használhat lock-ot vagy Monitor-t!  
+A végén a Main írja ki, hogy a megadott számokból mennyi volt a vektorban!  
+A feladatot 3 eszközzel oldja meg: ThreadPool, Task és Parallel.for. A StopWatch 
+segítségével mérje meg, és írassa ki, hogy melyik eszközzel milyen gyorsak az 
+implementált algoritmusok!  
+*/
+namespace Feladat02 {
+    internal class Program {
+        static Random rnd = new Random();
+        const int N = 1000;
+        static int[] numbers = new int[N];
+        static int talalat = 0;
+        static void elejetol(Object o) {
+            CountdownEvent cde = (CountdownEvent)o;
+            for (int i = 0; i < N / 2; i++) {
+                if (numbers[i] > 999 && numbers[i] % 4 == 0 && numbers[i] % 3 != 0) {
+                    Interlocked.Increment(ref talalat);
+                }
+            }
+            cde.Signal();
+        }
+        static void vegetol(Object o) {
+            CountdownEvent cde = (CountdownEvent)o;
+            for (int i = N / 2; i < N; i++) {
+                if (numbers[i] > 999 && numbers[i] % 4 == 0 && numbers[i] % 3 != 0) {
+                    Interlocked.Increment(ref talalat);
+                }
+            }
+            cde.Signal();
+        }
+        static void elejetolTask() {
+            for (int i = 0; i < N / 2; i++) {
+                if (numbers[i] > 999 && numbers[i] % 4 == 0 && numbers[i] % 3 != 0) {
+                    Interlocked.Increment(ref talalat);
+                }
+            }
+        }
+        static void vegetolTask() {
+            for (int i = N / 2; i < N; i++) {
+                if (numbers[i] > 999 && numbers[i] % 4 == 0 && numbers[i] % 3 != 0) {
+                    Interlocked.Increment(ref talalat);
+                }
+            }
+        }
+        static void Main(string[] args) {
+            for (int i = 0; i < N; i++) {
+                numbers[i] = rnd.Next(100, 10000);
+            }
+            Stopwatch stopwatch = new Stopwatch();
+
+            stopwatch.Start();
+            CountdownEvent countdownEvent = new CountdownEvent(2);
+            ThreadPool.QueueUserWorkItem(elejetol, countdownEvent);
+            ThreadPool.QueueUserWorkItem(vegetol, countdownEvent);
+            countdownEvent.Wait();
+            stopwatch.Stop();
+            Console.WriteLine($"Feltételnek megfelelő találat: {talalat}; tick-ek: {stopwatch.ElapsedTicks}");
+            stopwatch.Reset();
+            talalat = 0;
+
+            stopwatch.Start();
+            Task task01 = Task.Run(() => elejetolTask());
+            Task task02 = Task.Run(() => vegetolTask());
+            Task.WaitAll(task01, task02);
+            stopwatch.Stop();
+            Console.WriteLine($"Feltételnek megfelelő találat: {talalat}; tick-ek: {stopwatch.ElapsedTicks}");
+            stopwatch.Reset();
+            talalat = 0;
+
+            stopwatch.Start();
+            Parallel.For(0, N, (i) => Interlocked.Increment(talalat);
+            stopwatch.Stop();
+            Console.WriteLine($"Parallel.For-al összeg: {talalat}; tick-ek: {stopwatch.ElapsedTicks}");
+            stopwatch.Reset();
+            talalat = 0;
+        }
+    }
+}

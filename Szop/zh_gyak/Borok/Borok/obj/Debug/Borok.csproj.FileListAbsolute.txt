@@ -1,0 +1,7 @@
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\obj\Debug\Borok.csproj.AssemblyReference.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\obj\Debug\Borok.csproj.CoreCompileInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\bin\Debug\Borok.exe.config
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\bin\Debug\Borok.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\bin\Debug\Borok.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\obj\Debug\Borok.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak\Borok\Borok\obj\Debug\Borok.pdb

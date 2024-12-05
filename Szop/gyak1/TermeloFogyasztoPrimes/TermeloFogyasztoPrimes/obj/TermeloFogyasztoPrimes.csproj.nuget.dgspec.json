@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj": {}
+    "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj": {
+    "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj",
+        "projectUniqueName": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj",
         "projectName": "TermeloFogyasztoPrimes",
-        "projectPath": "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\obj\\",
+        "projectPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj",
+        "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
+        "outputPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

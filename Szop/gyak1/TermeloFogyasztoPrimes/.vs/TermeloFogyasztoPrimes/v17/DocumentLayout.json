@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\",
+  "WorkspaceRootPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1AFC49C-0F38-4760-BD12-83DD22A4CB50}|TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj|c:\\xampp\\ksanyi\\termelofogyasztoprimes\\termelofogyasztoprimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1AFC49C-0F38-4760-BD12-83DD22A4CB50}|TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\gyak1\\termelofogyasztoprimes\\termelofogyasztoprimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AFC49C-0F38-4760-BD12-83DD22A4CB50}|TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes.csproj|solutionrelative:termelofogyasztoprimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\Program.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\Program.cs",
               "RelativeDocumentMoniker": "TermeloFogyasztoPrimes\\Program.cs",
-              "ToolTip": "C:\\xampp\\KSanyi\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\Program.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\gyak1\\TermeloFogyasztoPrimes\\TermeloFogyasztoPrimes\\Program.cs",
               "RelativeToolTip": "TermeloFogyasztoPrimes\\Program.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAUwIgAAABRAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwIQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T09:15:29.56Z",
               "EditorCaption": ""

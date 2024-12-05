@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj": {}
+    "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj": {
+    "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj",
+        "projectUniqueName": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj",
         "projectName": "TermloFogyaszto1",
-        "projectPath": "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\obj\\",
+        "projectPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\TermloFogyaszto1.csproj",
+        "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
+        "outputPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

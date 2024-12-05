@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\KSanyi\\TermloFogyaszto1\\",
+  "WorkspaceRootPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{451873A1-750D-4934-A90E-3103DA35DEEA}|TermloFogyaszto1\\TermloFogyaszto1.csproj|c:\\xampp\\ksanyi\\termlofogyaszto1\\termlofogyaszto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{451873A1-750D-4934-A90E-3103DA35DEEA}|TermloFogyaszto1\\TermloFogyaszto1.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\levgyak1\\termlofogyaszto1\\termlofogyaszto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{451873A1-750D-4934-A90E-3103DA35DEEA}|TermloFogyaszto1\\TermloFogyaszto1.csproj|solutionrelative:termlofogyaszto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\Program.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\Program.cs",
               "RelativeDocumentMoniker": "TermloFogyaszto1\\Program.cs",
-              "ToolTip": "C:\\xampp\\KSanyi\\TermloFogyaszto1\\TermloFogyaszto1\\Program.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\Levgyak1\\TermloFogyaszto1\\TermloFogyaszto1\\Program.cs",
               "RelativeToolTip": "TermloFogyaszto1\\Program.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAswH8AAAANAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T13:59:04.121Z",
               "EditorCaption": ""

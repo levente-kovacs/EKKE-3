@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+
+class Program
+{
+    static List<int> numbersList = new List<int>();  // Shared list to hold numbers
+    static bool stopRemoveThread = false;            // Flag to stop the removal thread
+    static object lockObj = new object();            // Lock object for thread synchronization
+
+    static void Main(string[] args)
+    {
+        // Create two threads: one for adding and one for removing elements
+        Thread addThread = new Thread(AddNumbers);
+        Thread removeThread = new Thread(RemoveNumbers);
+
+        // Set priorities: addThread has highest, removeThread has lowest
+        addThread.Priority = ThreadPriority.Highest;
+        removeThread.Priority = ThreadPriority.Lowest;
+
+        // Start both threads
+        addThread.Start();
+        removeThread.Start();
+
+        // Wait for both threads to complete
+        addThread.Join();
+        removeThread.Join();
+
+        // Count single-digit numbers left in the list
+        int singleDigitCount = numbersList.Count(num => num >= 0 && num < 10);
+
+        // Output the results
+        Console.WriteLine($"Total numbers left in the list: {numbersList.Count}");
+        Console.WriteLine($"Total single-digit numbers left: {singleDigitCount}");
+    }
+
+    // Method to add 100,000 random numbers (up to 4 digits) to the list
+    static void AddNumbers()
+    {
+        Random rand = new Random();
+        for (int i = 0; i < 100000; i++)
+        {
+            lock (lockObj)
+            {
+                numbersList.Add(rand.Next(1, 10000));  // Add a random number (1 to 9999)
+            }
+        }
+    }
+
+    // Method to remove the first number with at least 3 digits by replacing it with -1
+    static void RemoveNumbers()
+    {
+        while (!stopRemoveThread)
+        {
+            lock (lockObj)
+            {
+                // Search for the first number with at least 3 digits
+                for (int i = 0; i < numbersList.Count; i++)
+                {
+                    if (numbersList[i] >= 100)
+                    {
+                        // Replace the number with -1
+                        numbersList[i] = -1;
+                        Console.WriteLine($"Replaced element at index {i} with -1.");
+                        break;
+                    }
+                }
+
+                // Check if no 3-digit numbers are left
+                if (!numbersList.Any(num => num >= 100))
+                {
+                    stopRemoveThread = true;
+                }
+            }
+            Thread.Sleep(10);  // Give some time for adding thread to populate
+        }
+    }
+}

@@ -1,0 +1,149 @@
+using System;
+using System.Collections.Concurrent;
+using System.Threading;
+
+namespace ProducerConsumerIP
+{
+    static class Supervisor
+    {
+        static readonly BlockingCollection<string> bufferA = new BlockingCollection<string>(10); // Buffer for IP Class A
+        static readonly BlockingCollection<string> bufferB = new BlockingCollection<string>(8);  // Buffer for IP Class B
+        static readonly BlockingCollection<string> bufferC = new BlockingCollection<string>(6);  // Buffer for IP Class C
+        static readonly BlockingCollection<string> bufferD = new BlockingCollection<string>(4);  // Buffer for IP Class D
+
+        public static void AddItem(char ipClass, string ip)
+        {
+            switch (ipClass)
+            {
+                case 'A':
+                    bufferA.Add(ip);
+                    break;
+                case 'B':
+                    bufferB.Add(ip);
+                    break;
+                case 'C':
+                    bufferC.Add(ip);
+                    break;
+                case 'D':
+                    bufferD.Add(ip);
+                    break;
+            }
+            Console.WriteLine($"{ipClass} IP {ip} added to buffer.");
+        }
+
+        public static string RemoveItem(char ipClass)
+        {
+            return ipClass switch
+            {
+                'A' => bufferA.Take(),
+                'B' => bufferB.Take(),
+                'C' => bufferC.Take(),
+                'D' => bufferD.Take(),
+                _ => throw new InvalidOperationException("Unknown IP class")
+            };
+        }
+    }
+
+    class Producer
+    {
+        public char IPType { get; }
+        public ConsoleColor Colour { get; }
+        public int Amount { get; }
+        public int WorkTime { get; }
+
+        public Producer(char ipType, ConsoleColor colour, int amount, int workTime)
+        {
+            IPType = ipType;
+            Colour = colour;
+            Amount = amount;
+            WorkTime = workTime;
+        }
+
+        public void Produce()
+        {
+            Random random = new Random();
+            for (int i = 0; i < Amount; i++)
+            {
+                string ip = GenerateIPAddress(IPType, random);
+                Supervisor.AddItem(IPType, ip);
+                Console.ForegroundColor = Colour;
+                Console.WriteLine($"Produced: {ip}");
+                Thread.Sleep(WorkTime);
+            }
+        }
+
+        private string GenerateIPAddress(char ipClass, Random random)
+        {
+            return ipClass switch
+            {
+                'A' => $"{random.Next(1, 127)}.{random.Next(0, 256)}.{random.Next(0, 256)}.{random.Next(0, 256)}",
+                'B' => $"{random.Next(128, 192)}.{random.Next(0, 256)}.{random.Next(0, 256)}.{random.Next(0, 256)}",
+                'C' => $"{random.Next(192, 224)}.{random.Next(0, 256)}.{random.Next(0, 256)}.{random.Next(0, 256)}",
+                'D' => $"{random.Next(224, 240)}.{random.Next(0, 256)}.{random.Next(0, 256)}.{random.Next(0, 256)}",
+                _ => throw new InvalidOperationException("Unknown IP class")
+            };
+        }
+    }
+
+    class Consumer
+    {
+        public char IPType { get; }
+        public ConsoleColor Colour { get; }
+
+        public Consumer(char ipType, ConsoleColor colour)
+        {
+            IPType = ipType;
+            Colour = colour;
+        }
+
+        public void Consume()
+        {
+            while (true)
+            {
+                string ip = Supervisor.RemoveItem(IPType);
+                Console.ForegroundColor = Colour;
+                Console.WriteLine($"Consumed: {ip}");
+            }
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Producers
+            Producer[] producers =
+            {
+                new Producer('A', ConsoleColor.Blue, 10, 100),
+                new Producer('B', ConsoleColor.Red, 10, 200),
+                new Producer('C', ConsoleColor.Green, 10, 300),
+                new Producer('D', ConsoleColor.Yellow, 10, 400)
+            };
+
+            // Consumers
+            Consumer[] consumers =
+            {
+                new Consumer('A', ConsoleColor.Blue),
+                new Consumer('B', ConsoleColor.Red),
+                new Consumer('C', ConsoleColor.Green),
+                new Consumer('D', ConsoleColor.Yellow)
+            };
+
+            // Start producers
+            foreach (var producer in producers)
+            {
+                ThreadPool.QueueUserWorkItem(_ => producer.Produce());
+            }
+
+            // Start consumers
+            foreach (var consumer in consumers)
+            {
+                ThreadPool.QueueUserWorkItem(_ => consumer.Consume());
+            }
+
+            // Prevent the application from exiting
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}

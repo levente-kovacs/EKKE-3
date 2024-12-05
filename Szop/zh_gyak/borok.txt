@@ -1,0 +1,125 @@
+using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+/*
+Borok – BlockingCollection és Task – 70 pont 
+BlockingCollection és Task használatával oldja meg a következő termelő-fogyasztó problémát! A termelők bort öntenek két különböző hordóba. 
+(Mindegyik 1 litert egyszerre.) Az egyikbe vöröset, a másikba fehéret. Két típusú termelő van: az egyik csak vörösbort, a másik típusú csak fehérbort tud termelni. 
+Mindegyik különböző mennyiségben állítja elő ezeket. A vörösbor előállításához kell a több idő, a fehérboréhoz kevesebb (Thread.Sleep). 
+A fogyasztóknak is két típusa, az egyik csak vörösbort, a másik típusú csak fehérbort fogyaszt. (Egyszerre 1 litert.) 
+A berakásról és a kivételről is üzeneteket írnak ki, minden bortípushoz különböző szín tartozzon. A fogyasztók valamennyi bort elfogyasztják.  
+A kollekciókhoz (2 darab van) a hozzáférést, a termelők és a fogyasztók kontrollálását a Supervisor osztály végezze. 
+A lista mérete konstansként legyen megadva. (A hordok nevei: piros és feher.) 
+A termelő osztály mezői: 
+    - Bor típus: vörös vagy fehér. (String) 
+    - Colour: Piros, sárga. ConsoleColor típusú 
+    - Mennyiség: mennyi bort kell előállítania. Típusa: double. 
+    - WorkTime: a „termelés” után hány millisec-et kell várni. (Lehet előtte is.:-). int. Vörösbor esetén 10, fehér esetén 5 legyen. 
+A fogyasztó osztály mezői 
+    - Bor típus: vörös vagy fehér. (String) 
+    - Colour: Piros, sárga. ConsoleColor típusú 
+Négy termelő és négy fogyasztó legyen! A fenti korlátokon kívül más megkötés nincs. 
+*/
+namespace Feladat01 {
+    internal class Program {
+        class Supervisor {
+            static int pirosHordoMeret = 10;
+            static BlockingCollection<int> piros = new BlockingCollection<int>(pirosHordoMeret);
+            static int feherHordoMeret = 8;
+            static BlockingCollection<int> feher = new BlockingCollection<int>(feherHordoMeret);
+
+            public static void Berak(string borTipus) {
+                switch (borTipus) {
+                    case "feher":
+                        while (feher.Count >= feherHordoMeret) {
+                            feher.Add(1);
+                        }
+                        feher.CompleteAdding();
+                        break;
+                    case "piros":
+                        while (piros.Count >= pirosHordoMeret) {
+                            piros.Add(1);
+                        }
+                        piros.CompleteAdding();
+                        break;
+                }
+            }
+            public static void Kivesz(string borTipus, ConsoleColor colour) {
+                switch (borTipus) {
+                    case "feher":
+                        while (!feher.IsCompleted) {
+                            feher.Take();
+                            lock (typeof(Program)) {
+                                Console.ForegroundColor = colour;
+                                Console.WriteLine($"1 liter {borTipus} bort kivettünk a hordójából.");
+                            }
+                        }
+                        break;
+                    case "piros":
+                        while (!piros.IsCompleted) {
+                            piros.Take();
+                            lock (typeof(Program)) {
+                                Console.ForegroundColor = colour;
+                                Console.WriteLine($"1 liter {borTipus} bort kivettünk a hordójából.");
+                            }
+                        }
+                        break;
+                }
+            }
+        }
+        public class Termelo {
+            string borTipus;
+            ConsoleColor colour;
+            int mennyiseg;
+            int workTime;
+            public Termelo(string borTipus, ConsoleColor colour, int mennyiseg, int workTime) {
+                this.borTipus = borTipus;
+                this.colour = colour;
+                this.mennyiseg = mennyiseg;
+                this.workTime = workTime;
+            }
+            public void Termel() {
+                for (int i = 0; i < mennyiseg; i++) {
+                    Supervisor.Berak(borTipus);
+                    lock (typeof(Program)) {
+                        Console.ForegroundColor = colour;
+                        Console.WriteLine($"1 liter {borTipus} bort beraktunk a hordójába.");
+                    }
+                    Thread.Sleep(this.workTime);
+                }
+            }
+        }
+        public class Fogyaszto {
+            string borTipus;
+            ConsoleColor colour;
+            public Fogyaszto(string borTipus, ConsoleColor colour) {
+                this.borTipus = borTipus;
+                this.colour = colour;
+            }
+            public void Fogyaszt() {
+                while (true) {
+                    Supervisor.Kivesz(borTipus, colour);
+
+                }
+            }
+        }
+        static void Main(string[] args) {
+            Termelo tVoros = new Termelo("piros", ConsoleColor.Red, 20, 10);
+            Termelo tFeher = new Termelo("feher", ConsoleColor.White, 22, 5);
+            Task tv = Task.Run(() => tVoros.Termel());
+            Task tf = Task.Run(() => tFeher.Termel());
+            Task.WaitAll(tv, tf);
+
+            Fogyaszto fVoros = new Fogyaszto("piros", ConsoleColor.Red);
+            Fogyaszto fFeher = new Fogyaszto("feher", ConsoleColor.White);
+            Task fv = Task.Run(() => fVoros.Fogyaszt());
+            Task ff = Task.Run(() => fFeher.Fogyaszt());
+            Task.WaitAll(fv, ff);
+        }
+    }
+}

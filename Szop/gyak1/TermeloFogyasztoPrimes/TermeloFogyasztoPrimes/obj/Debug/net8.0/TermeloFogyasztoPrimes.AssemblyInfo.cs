@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TermeloFogyasztoPrimes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b593fb9b0523059b45b3f8df8a95fbf79c031aa4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TermeloFogyasztoPrimes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TermeloFogyasztoPrimes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

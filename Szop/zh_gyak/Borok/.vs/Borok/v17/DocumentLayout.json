@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\zh_gyak\\borok\\borok\\vineconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|solutionrelative:borok\\vineconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\zh_gyak\\borok\\borok\\supervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|solutionrelative:borok\\supervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\zh_gyak\\borok\\borok\\vineproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|solutionrelative:borok\\vineproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|c:\\main\\tanulas\\ekke\\ekke-3\\szop\\zh_gyak\\borok\\borok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D877180B-A35E-40EC-945C-9EFEE58F10AD}|Borok\\Borok.csproj|solutionrelative:borok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VineConsumer.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\VineConsumer.cs",
+              "RelativeDocumentMoniker": "Borok\\VineConsumer.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\VineConsumer.cs",
+              "RelativeToolTip": "Borok\\VineConsumer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:52:39.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VineProducer.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\VineProducer.cs",
+              "RelativeDocumentMoniker": "Borok\\VineProducer.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\VineProducer.cs",
+              "RelativeToolTip": "Borok\\VineProducer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:52:10.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Supervisor.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\Supervisor.cs",
+              "RelativeDocumentMoniker": "Borok\\Supervisor.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\Supervisor.cs",
+              "RelativeToolTip": "Borok\\Supervisor.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:48:50.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\Program.cs",
+              "RelativeDocumentMoniker": "Borok\\Program.cs",
+              "ToolTip": "C:\\Main\\tanulas\\ekke\\EKKE-3\\Szop\\zh_gyak\\Borok\\Borok\\Program.cs",
+              "RelativeToolTip": "Borok\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwDMAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:47:23.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
