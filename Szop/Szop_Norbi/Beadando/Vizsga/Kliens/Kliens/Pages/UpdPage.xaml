@@ -1,0 +1,58 @@
+﻿<local:BasePage x:TypeArguments="core:UpdViewModel" x:Class="Kliens.UpdPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Kliens"
+      xmlns:core="clr-namespace:Kliens.Core;assembly=Kliens.Core"        
+      mc:Ignorable="d" 
+      x:Name="UpdatePage" d:DesignWidth="800"
+      Title="Update" Height="800">
+
+    <Border>
+        <Grid>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                <StackPanel 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    TextBlock.TextAlignment="Center">
+                    <Border Background="{StaticResource ForegroundLightBrush}"
+                            CornerRadius="10"
+                            Padding="15 50 15 15"
+                            Width="400"
+                            Margin="50 50 50 50"                            
+                            BorderThickness="0.1 0.7 0.7 0.7">
+                        <Border.BorderBrush>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                <GradientStop Color="Transparent" Offset="0.1"/>
+                                <GradientStop Color="{StaticResource LoginBorder}" Offset="1.0"/>
+                            </LinearGradientBrush>
+                        </Border.BorderBrush>
+                        <StackPanel>
+                            <ComboBox x:Name="carId" ItemsSource="{Binding CarID}" FontSize="{StaticResource FontSizeMedium}"
+                                   FontFamily="{StaticResource LatoRagular}"
+                                   Foreground="{StaticResource LoginBorderBrush}"
+                                   Margin="0 0 0 28"
+                                   VerticalAlignment="Center"
+                                   Width="180"                                   
+                                   DropDownClosed="Upd_Closed">
+                            </ComboBox>
+
+                            <TextBox Text="{Binding UpdBrand}" x:Name="Brand" Tag="Brand" />
+                            <TextBox Text="{Binding UpdVin}" x:Name="Vin" Tag="VIN"  />
+                            <TextBox Text="{Binding UpdColor}" x:Name="Color" Tag="Color"  />
+                            <TextBox Text="{Binding UpdModelYear}" x:Name="ModelYear" Tag="Model year" />
+                            <TextBox Text="{Binding UpdNumOfCylinders}" x:Name="NumOfCylinders" Tag="Number of cylinders"  />
+                            <TextBox Text="{Binding UpdEngineDisplacement}" x:Name="EngineDisplacement" Tag="Engine displacement"  />
+                            <ComboBox x:Name="Fuel" Text="{Binding UpdFuel}" Height="50">                                
+                                <ComboBoxItem FontSize="{StaticResource FontSizeMedium}" FontFamily="{StaticResource LatoRagular}"  Content="Benzin" />
+                                <ComboBoxItem FontSize="{StaticResource FontSizeMedium}" FontFamily="{StaticResource LatoRagular}" Content="Diesel"/>
+                            </ComboBox>
+                            <Button Content="Update" Click="Upd_Click" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </Border>                    
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Border>
+</local:BasePage>

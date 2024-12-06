@@ -1,0 +1,22 @@
+C:\Users\user\Desktop\A683PX\2Client\2Client\bin\Debug\2Client.exe.config
+C:\Users\user\Desktop\A683PX\2Client\2Client\bin\Debug\2Client.exe
+C:\Users\user\Desktop\A683PX\2Client\2Client\bin\Debug\2Client.pdb
+C:\Users\user\Desktop\A683PX\2Client\2Client\obj\Debug\2Client.exe
+C:\Users\user\Desktop\A683PX\2Client\2Client\obj\Debug\2Client.pdb
+C:\Users\user\Desktop\A683PX\2Client\2Client\obj\Debug\2Client.csprojResolveAssemblyReference.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\bin\Debug\2Client.exe.config
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\bin\Debug\2Client.exe
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\bin\Debug\2Client.pdb
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\obj\Debug\2Client.csproj.AssemblyReference.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\obj\Debug\2Client.csproj.SuggestedBindingRedirects.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\obj\Debug\2Client.csproj.CoreCompileInputs.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\obj\Debug\2Client.exe
+E:\Letöltések\Bódi Gábor Attila\A683PX\2Client\2Client\obj\Debug\2Client.pdb
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\bin\Debug\2Client.exe.config
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\bin\Debug\2Client.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\bin\Debug\2Client.pdb
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\obj\Debug\2Client.csproj.AssemblyReference.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\obj\Debug\2Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\obj\Debug\2Client.csproj.CoreCompileInputs.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\obj\Debug\2Client.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2Client\2Client\obj\Debug\2Client.pdb

@@ -1,0 +1,7 @@
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\bin\Debug\egyszeru3esfel.exe.config
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\bin\Debug\egyszeru3esfel.exe
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\bin\Debug\egyszeru3esfel.pdb
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\obj\Debug\egyszeru3esfel.csprojAssemblyReference.cache
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\obj\Debug\egyszeru3esfel.csproj.CoreCompileInputs.cache
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\obj\Debug\egyszeru3esfel.exe
+C:\Users\z630335\Desktop\SOP ZH GYAK\egyszeru3esfel\egyszeru3esfel\obj\Debug\egyszeru3esfel.pdb

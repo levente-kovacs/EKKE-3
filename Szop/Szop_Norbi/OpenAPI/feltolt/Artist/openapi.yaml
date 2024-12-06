@@ -1,0 +1,133 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Példa API (művészek)
+  description: Egyszerű OpenAPI példa
+
+servers:
+  - url: https://example.hu/v1
+
+security:
+  - BasicAuth: []
+
+paths:
+  /artists:
+    get:
+      description: Művészek listája
+      parameters:
+        #  ----- Új sorok  ------------------------------------------
+        - $ref: '#/components/parameters/PageLimit'
+        - $ref: '#/components/parameters/PageOffset'
+        #  ---- /Új sorok vége  ------------------------------------------
+      responses:
+        '200':
+          description: Sikeres művészek lista
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  #  ----- Új sor --------------------------------
+                  $ref: '#/components/schemas/Artist'
+                  #  ---- /Új sor vége --------------------------------
+        '400':
+          #  ----- Új sor  ----------------------------------------
+          $ref: '#/components/responses/400Error'
+          #  ---- /Új sor vége ----------------------------------------
+
+    post:
+      description: Új művész felvitele
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              #  ----- Új sor  ------------------------------------
+              $ref: '#/components/schemas/Artist'
+              #  ---- /Új sor vége  ------------------------------------
+      responses:
+        '200':
+          description: Sikeresen létrehozott új művész
+        '400':
+          #  ----- Új sor  ----------------------------------------
+          $ref: '#/components/responses/400Error'
+          #  ---- /Új sor vége  ----------------------------------------    
+
+  /artists/{username}:
+    get:
+      description: Username alapján egy művész lekérdezése
+      parameters:
+        - name: username
+          in: path
+          required: true
+          schema:
+            type: string
+          
+      responses:
+        '200':
+          description: Egy sikeresen visszaadott művész
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  artist_name:
+                    type: string
+                  artist_genre:
+                    type: string
+                  albums_recorded:
+                    type: integer
+                
+        '400':
+          #  ----- Új sor  ----------------------------------------
+          $ref: '#/components/responses/400Error'
+          #  ---- /Új sor vége ----------------------------------------     
+
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+
+  schemas:
+    Artist:
+      type: object
+      required:
+        - username
+      properties:
+        artist_name:
+          type: string
+        artist_genre:
+            type: string
+        albums_recorded:
+            type: integer
+        username:
+            type: string
+
+  #  ----- Új sorok!!!  ----------------------------------------
+  parameters:
+    PageLimit:
+      name: limit
+      in: query
+      description: Korlátozza az oldalak számát
+      schema:
+        type: integer
+      
+    PageOffset:
+      name: offset
+      in: query
+      description: Megadja a megjelenítendő művészek oldalszámát
+      schema:
+        type: integer
+
+  responses:
+    400Error:
+      description: Érvénytelen kérés
+      content:
+        application/json:
+          schema:
+            type: object 
+            properties:
+              message:
+                type: string
+  #  ---- /Új sorok vége ----------------------------------------

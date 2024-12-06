@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\A683PX\1feladat\1feladat\bin\Debug\1feladat.exe.config
+C:\Users\user\Desktop\A683PX\1feladat\1feladat\bin\Debug\1feladat.exe
+C:\Users\user\Desktop\A683PX\1feladat\1feladat\bin\Debug\1feladat.pdb
+C:\Users\user\Desktop\A683PX\1feladat\1feladat\obj\Debug\1feladat.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\A683PX\1feladat\1feladat\obj\Debug\1feladat.exe
+C:\Users\user\Desktop\A683PX\1feladat\1feladat\obj\Debug\1feladat.pdb

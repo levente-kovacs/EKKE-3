@@ -1,0 +1,22 @@
+C:\Users\user\Desktop\A683PX\2server\2server\bin\Debug\2server.exe.config
+C:\Users\user\Desktop\A683PX\2server\2server\bin\Debug\2server.exe
+C:\Users\user\Desktop\A683PX\2server\2server\bin\Debug\2server.pdb
+C:\Users\user\Desktop\A683PX\2server\2server\obj\Debug\2server.exe
+C:\Users\user\Desktop\A683PX\2server\2server\obj\Debug\2server.pdb
+C:\Users\user\Desktop\A683PX\2server\2server\obj\Debug\2server.csprojResolveAssemblyReference.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\bin\Debug\2server.exe.config
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\bin\Debug\2server.exe
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\bin\Debug\2server.pdb
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\obj\Debug\2server.csproj.AssemblyReference.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\obj\Debug\2server.csproj.SuggestedBindingRedirects.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\obj\Debug\2server.csproj.CoreCompileInputs.cache
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\obj\Debug\2server.exe
+E:\Letöltések\Bódi Gábor Attila\A683PX\2server\2server\obj\Debug\2server.pdb
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\bin\Debug\2server.exe.config
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\bin\Debug\2server.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\bin\Debug\2server.pdb
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\obj\Debug\2server.csproj.AssemblyReference.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\obj\Debug\2server.csproj.SuggestedBindingRedirects.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\obj\Debug\2server.csproj.CoreCompileInputs.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\obj\Debug\2server.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh segítség\stream\A683PX\2server\2server\obj\Debug\2server.pdb

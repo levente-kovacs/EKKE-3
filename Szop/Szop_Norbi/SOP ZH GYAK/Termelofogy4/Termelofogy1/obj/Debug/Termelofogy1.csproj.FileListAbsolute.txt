@@ -1,0 +1,7 @@
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\bin\Debug\Termelofogy1.exe.config
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\bin\Debug\Termelofogy1.exe
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\bin\Debug\Termelofogy1.pdb
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\obj\Debug\Termelofogy1.csprojAssemblyReference.cache
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\obj\Debug\Termelofogy1.csproj.CoreCompileInputs.cache
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\obj\Debug\Termelofogy1.exe
+C:\Users\z630335\Desktop\SOP ZH GYAK\Termelofogy1\Termelofogy1\obj\Debug\Termelofogy1.pdb

@@ -1,0 +1,13 @@
+D:\KS\Socket1Server\Socket1Server\bin\Debug\Socket1Server.exe.config
+D:\KS\Socket1Server\Socket1Server\bin\Debug\Socket1Server.exe
+D:\KS\Socket1Server\Socket1Server\bin\Debug\Socket1Server.pdb
+D:\KS\Socket1Server\Socket1Server\obj\Debug\Socket1Server.csprojResolveAssemblyReference.cache
+D:\KS\Socket1Server\Socket1Server\obj\Debug\Socket1Server.exe
+D:\KS\Socket1Server\Socket1Server\obj\Debug\Socket1Server.pdb
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\bin\Debug\Socket1Server.exe.config
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\bin\Debug\Socket1Server.exe
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\bin\Debug\Socket1Server.pdb
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\obj\Debug\Socket1Server.csprojAssemblyReference.cache
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\obj\Debug\Socket1Server.csproj.CoreCompileInputs.cache
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\obj\Debug\Socket1Server.exe
+C:\!!!KSanyi\EKE\344\temp\Socket1Server\Socket1Server\obj\Debug\Socket1Server.pdb

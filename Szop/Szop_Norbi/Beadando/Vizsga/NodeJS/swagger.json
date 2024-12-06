@@ -1,0 +1,464 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "0.5.0",
+    "title": "AK9AVF vizsga",
+    "description": "Cars API metódusai"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3100"
+    }
+  ],
+  "components": {
+    "schemas": {
+      "Car": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "vin": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "modelYear": {
+            "type": "integer"
+          },
+          "numOfCylinders": {
+            "type": "integer"
+          },
+          "engineDisplacment": {
+            "type": "integer"
+          },
+          "fuel": {
+            "type": "string",
+            "enum": [
+              "Benzin",
+              "Diesel"
+            ]
+          },
+          "user_id": {
+            "type": "integer"
+          }
+        }
+      },
+      "newCar": {
+        "required": [
+          "token"
+        ],
+        "type": "object",
+        "properties": {
+          "brand": {
+            "type": "string"
+          },
+          "vin": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "modelYear": {
+            "type": "integer"
+          },
+          "numOfCylinders": {
+            "type": "integer"
+          },
+          "engineDisplacment": {
+            "type": "integer"
+          },
+          "fuel": {
+            "type": "string",
+            "enum": [
+              "Benzin",
+              "Diesel"
+            ]
+          },
+          "user_id": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "BasicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    }
+  },
+  "security": [
+    {
+      "BasicAuth": [
+        "token"
+      ]
+    }
+  ],
+  "paths": {
+    "/login": {
+      "post": {
+        "description": "bejelentkezés a kliensbe",
+        "requestBody": {
+          "description": "Bejelentkezés",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "A felhasználó sikeresen bejelentkezett a kliensbe",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "token": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Nincs ilyen felhasználó",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/cars": {
+      "get": {
+        "description": "Autók listája",
+        "responses": {
+          "200": {
+            "description": "A teljes lista",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Car"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Érvénytelen kérés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/cars/{id}": {
+      "get": {
+        "description": "Egy autó",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Egy autó adatai id alapján",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Car"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Érvénytelen kérés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "description": "Egy autó törlése id alapján",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "required": [
+                "token"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Sikeres törlés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Érvénytelen kérés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/car": {
+      "post": {
+        "description": "Új autó rögzítése",
+        "requestBody": {
+          "description": "Új autó adatai",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/newCar"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Új autó sikeresen rögzítve",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "token": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Érvénytelen kérés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "requestBody": {
+          "description": "Meglévő autó adatainak módosítása",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "token"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "brand": {
+                    "type": "string"
+                  },
+                  "vin": {
+                    "type": "string"
+                  },
+                  "color": {
+                    "type": "string"
+                  },
+                  "modelYear": {
+                    "type": "integer"
+                  },
+                  "numOfCylinders": {
+                    "type": "integer"
+                  },
+                  "engineDisplacment": {
+                    "type": "integer"
+                  },
+                  "fuel": {
+                    "type": "string",
+                    "enum": [
+                      "Benzin",
+                      "Diesel"
+                    ]
+                  },
+                  "user_id": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "A módosítás sikeres volt",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "token": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Érvénytelen kérés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/fuels": {
+      "get": {
+        "description": "Üzemanyagok típusa és ára.",
+        "responses": {
+          "200": {
+            "description": "A teljes lista",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "price": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Érvénytelen kérés",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

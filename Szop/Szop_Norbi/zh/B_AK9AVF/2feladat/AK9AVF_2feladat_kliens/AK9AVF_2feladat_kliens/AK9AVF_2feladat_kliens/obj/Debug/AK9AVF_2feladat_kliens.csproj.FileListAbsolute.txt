@@ -1,0 +1,8 @@
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\bin\Debug\AK9AVF_2feladat_kliens.exe.config
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\bin\Debug\AK9AVF_2feladat_kliens.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\bin\Debug\AK9AVF_2feladat_kliens.pdb
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\obj\Debug\AK9AVF_2feladat_kliens.csproj.AssemblyReference.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\obj\Debug\AK9AVF_2feladat_kliens.csproj.SuggestedBindingRedirects.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\obj\Debug\AK9AVF_2feladat_kliens.csproj.CoreCompileInputs.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\obj\Debug\AK9AVF_2feladat_kliens.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\AK9AVF_2feladat_kliens\obj\Debug\AK9AVF_2feladat_kliens.pdb

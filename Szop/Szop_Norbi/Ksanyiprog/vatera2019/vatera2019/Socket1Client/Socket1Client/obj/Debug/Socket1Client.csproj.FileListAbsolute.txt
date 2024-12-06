@@ -1,0 +1,5 @@
+D:\KS\Socket1Client\Socket1Client\bin\Debug\Socket1Client.exe.config
+D:\KS\Socket1Client\Socket1Client\bin\Debug\Socket1Client.exe
+D:\KS\Socket1Client\Socket1Client\bin\Debug\Socket1Client.pdb
+D:\KS\Socket1Client\Socket1Client\obj\Debug\Socket1Client.exe
+D:\KS\Socket1Client\Socket1Client\obj\Debug\Socket1Client.pdb

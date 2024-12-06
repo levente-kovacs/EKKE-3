@@ -1,0 +1,6 @@
+D:\KSanyi\EBay_server\EBay_server\bin\Debug\EBay_server.exe.config
+D:\KSanyi\EBay_server\EBay_server\bin\Debug\EBay_server.exe
+D:\KSanyi\EBay_server\EBay_server\bin\Debug\EBay_server.pdb
+D:\KSanyi\EBay_server\EBay_server\obj\Debug\EBay_server.csprojResolveAssemblyReference.cache
+D:\KSanyi\EBay_server\EBay_server\obj\Debug\EBay_server.exe
+D:\KSanyi\EBay_server\EBay_server\obj\Debug\EBay_server.pdb

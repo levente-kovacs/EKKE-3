@@ -1,0 +1,8 @@
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\bin\Debug\AK9AVF_2feladat.exe.config
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\bin\Debug\AK9AVF_2feladat.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\bin\Debug\AK9AVF_2feladat.pdb
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\obj\Debug\AK9AVF_2feladat.csproj.AssemblyReference.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\obj\Debug\AK9AVF_2feladat.csproj.SuggestedBindingRedirects.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\obj\Debug\AK9AVF_2feladat.csproj.CoreCompileInputs.cache
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\obj\Debug\AK9AVF_2feladat.exe
+C:\Users\kulon\Desktop\ekke\III.Félév\Szolgáltatás orientált programozás\zh\AK9AVF\2feladat\AK9AVF_2feladat\AK9AVF_2feladat\obj\Debug\AK9AVF_2feladat.pdb

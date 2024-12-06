@@ -1,0 +1,5 @@
+D:\KSanyi\EBay_server\client\bin\Debug\client.exe.config
+D:\KSanyi\EBay_server\client\bin\Debug\client.exe
+D:\KSanyi\EBay_server\client\bin\Debug\client.pdb
+D:\KSanyi\EBay_server\client\obj\Debug\client.exe
+D:\KSanyi\EBay_server\client\obj\Debug\client.pdb

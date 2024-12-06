@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strream_1_server", "Strream_1_server\Strream_1_server.csproj", "{4525BE9E-9195-40B6-9911-CD8732FE2B83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4525BE9E-9195-40B6-9911-CD8732FE2B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4525BE9E-9195-40B6-9911-CD8732FE2B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4525BE9E-9195-40B6-9911-CD8732FE2B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4525BE9E-9195-40B6-9911-CD8732FE2B83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1181F2-6D4B-434A-9B4D-AB8E23F57073}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ekke\\FOSZ-K\u00C9SZ\\III.F\u00E9l\u00E9v\\Szolg\u00E1ltat\u00E1s orient\u00E1lt programoz\u00E1s\\zh seg\u00EDts\u00E9g\\stream\\Server2_tobbszal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EA8AD7A-C573-4822-8827-0EBF98F26580}|Server2_tobbszal\\Server2_tobbszal.csproj|d:\\ekke\\fosz-k\u00E9sz\\iii.f\u00E9l\u00E9v\\szolg\u00E1ltat\u00E1s orient\u00E1lt programoz\u00E1s\\zh seg\u00EDts\u00E9g\\stream\\server2_tobbszal\\server2_tobbszal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EA8AD7A-C573-4822-8827-0EBF98F26580}|Server2_tobbszal\\Server2_tobbszal.csproj|solutionrelative:server2_tobbszal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ekke\\FOSZ-K\u00C9SZ\\III.F\u00E9l\u00E9v\\Szolg\u00E1ltat\u00E1s orient\u00E1lt programoz\u00E1s\\zh seg\u00EDts\u00E9g\\stream\\Server2_tobbszal\\Server2_tobbszal\\Program.cs",
+              "RelativeDocumentMoniker": "Server2_tobbszal\\Program.cs",
+              "ToolTip": "D:\\ekke\\FOSZ-K\u00C9SZ\\III.F\u00E9l\u00E9v\\Szolg\u00E1ltat\u00E1s orient\u00E1lt programoz\u00E1s\\zh seg\u00EDts\u00E9g\\stream\\Server2_tobbszal\\Server2_tobbszal\\Program.cs",
+              "RelativeToolTip": "Server2_tobbszal\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:12:18.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
