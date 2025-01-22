@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yJhGkG4H8E8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tantárgyak\\Bevezetés a számítógépi grafikába\\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\\GraphicsDLL\\GraphicsDLL\\GraphicsDLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EKKE\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\EKKE\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

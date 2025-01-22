@@ -1,0 +1,12 @@
+E:\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\bin\Debug\GrafikaDLL.dll
+E:\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\bin\Debug\GrafikaDLL.pdb
+E:\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.csproj.AssemblyReference.cache
+E:\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.csproj.CoreCompileInputs.cache
+E:\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.dll
+E:\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.pdb
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\bin\Debug\GrafikaDLL.dll
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\bin\Debug\GrafikaDLL.pdb
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.csproj.AssemblyReference.cache
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.csproj.CoreCompileInputs.cache
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.dll
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\BevGrafGyak_Lev\GrafikaDLL\GrafikaDLL\obj\Debug\GrafikaDLL.pdb

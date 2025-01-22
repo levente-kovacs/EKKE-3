@@ -1,0 +1,12 @@
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\bin\Debug\net8.0\GraphicsDLL.deps.json
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\bin\Debug\net8.0\GraphicsDLL.dll
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\bin\Debug\net8.0\GraphicsDLL.pdb
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.AssemblyInfoInputs.cache
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.AssemblyInfo.cs
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.csproj.CoreCompileInputs.cache
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.dll
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\refint\GraphicsDLL.dll
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.pdb
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\ref\GraphicsDLL.dll
+C:\Users\EKKE\Troll Ede\EKKE\Tantárgyak\Bevezetés a számítógépi grafikába\2024_25 - BevGraf - PTI BSc 3, OT (LEV_TÁV)\GraphicsDLL\GraphicsDLL\obj\Debug\net8.0\GraphicsDLL.csproj.AssemblyReference.cache

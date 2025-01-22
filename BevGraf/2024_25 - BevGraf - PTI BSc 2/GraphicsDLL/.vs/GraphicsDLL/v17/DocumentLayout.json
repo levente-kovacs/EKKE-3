@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - bevgraf - pti bsc 2\\graphicsdll\\graphicsdll\\brepparametricsurface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|solutionrelative:graphicsdll\\brepparametricsurface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - bevgraf - pti bsc 2\\graphicsdll\\graphicsdll\\extensiongraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|solutionrelative:graphicsdll\\extensiongraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - bevgraf - pti bsc 2\\graphicsdll\\graphicsdll\\brepobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|solutionrelative:graphicsdll\\brepobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - bevgraf - pti bsc 2\\graphicsdll\\graphicsdll\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|solutionrelative:graphicsdll\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - bevgraf - pti bsc 2\\graphicsdll\\graphicsdll\\cubebrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76251FED-DE43-4838-BB73-ADA8659B3126}|GraphicsDLL\\GraphicsDLL.csproj|solutionrelative:graphicsdll\\cubebrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 157,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\Triangle.cs",
+              "RelativeDocumentMoniker": "GraphicsDLL\\Triangle.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\Triangle.cs",
+              "RelativeToolTip": "GraphicsDLL\\Triangle.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:57:15.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExtensionGraphics.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs",
+              "RelativeDocumentMoniker": "GraphicsDLL\\ExtensionGraphics.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs",
+              "RelativeToolTip": "GraphicsDLL\\ExtensionGraphics.cs",
+              "ViewState": "AgIAAKABAAAAAAAAAAAAAKoBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:39:12.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BRepParametricSurface.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\BRepParametricSurface.cs",
+              "RelativeDocumentMoniker": "GraphicsDLL\\BRepParametricSurface.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\BRepParametricSurface.cs",
+              "RelativeToolTip": "GraphicsDLL\\BRepParametricSurface.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:38:52.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BRepObj.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\BRepObj.cs",
+              "RelativeDocumentMoniker": "GraphicsDLL\\BRepObj.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\BRepObj.cs",
+              "RelativeToolTip": "GraphicsDLL\\BRepObj.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:28:32.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CubeBRep.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\CubeBRep.cs",
+              "RelativeDocumentMoniker": "GraphicsDLL\\CubeBRep.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\CubeBRep.cs",
+              "RelativeToolTip": "GraphicsDLL\\CubeBRep.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:23:46.063Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

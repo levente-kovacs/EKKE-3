@@ -1,0 +1,10 @@
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\bin\Debug\KliensProject.exe.config
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\bin\Debug\KliensProject.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\bin\Debug\KliensProject.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\obj\Debug\KliensProject.csproj.AssemblyReference.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\obj\Debug\KliensProject.csproj.CoreCompileInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\obj\Debug\KliensPr.1DC70E18.Up2Date
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\obj\Debug\KliensProject.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\KliensProject\KliensProject\obj\Debug\KliensProject.pdb

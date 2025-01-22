@@ -1,0 +1,47 @@
+using System.Configuration;
+using System.Net.Sockets;
+using System.Text;
+
+namespace Kliens {
+    internal class Program {
+        const char sep = '|';
+        const string exitCode = "EXIT";
+        const string moreItemStart = "OK*";
+        const string moreItemStop = "OK!";
+        static void Main(string[] args) {
+            string ipFromConf = ConfigurationManager.AppSettings["IP"];
+            int port = int.Parse(ConfigurationManager.AppSettings["port"]);
+
+            TcpClient tcpClient = new TcpClient(ipFromConf, port);
+
+            StreamReader sr = new StreamReader(tcpClient.GetStream(), Encoding.UTF8);
+            StreamWriter sw = new StreamWriter(tcpClient.GetStream(), Encoding.UTF8);
+
+            string commandLine = sr.ReadLine();
+            Console.WriteLine($"Szerver üzenet: {commandLine}");
+
+            while (commandLine != exitCode) {
+                commandLine = Console.ReadLine();
+                sw.WriteLine(commandLine);
+                sw.Flush();
+
+                commandLine = sr.ReadLine();
+                if (commandLine == moreItemStart) {
+                    commandLine = sr.ReadLine();
+                    while (commandLine != moreItemStop) {
+                        if (commandLine != moreItemStop) {
+                            Console.WriteLine(commandLine);
+                        }
+                        commandLine = sr.ReadLine();
+                    }
+                } else {
+                    if (commandLine.Substring(0, 3) == "ERR") {
+                        Console.WriteLine($"Hiba: {commandLine.Split(sep)[1]}");
+                    } else {
+                        Console.WriteLine(commandLine);
+                    }
+                }
+            }
+        }
+    }
+}

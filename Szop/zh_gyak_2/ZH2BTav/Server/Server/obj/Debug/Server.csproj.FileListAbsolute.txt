@@ -1,0 +1,10 @@
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\bin\Debug\Server.exe.config
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\bin\Debug\Server.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\bin\Debug\Server.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\obj\Debug\Server.csproj.Up2Date
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\obj\Debug\Server.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh_gyak_2\ZH2BTav\Server\Server\obj\Debug\Server.pdb

@@ -1,0 +1,10 @@
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\bin\Debug\MotorClient.exe.config
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\bin\Debug\MotorClient.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\bin\Debug\MotorClient.pdb
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\obj\Debug\MotorClient.csproj.AssemblyReference.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\obj\Debug\MotorClient.csproj.CoreCompileInputs.cache
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\obj\Debug\MotorCli.2D4F10D3.Up2Date
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\obj\Debug\MotorClient.exe
+C:\Main\tanulas\ekke\EKKE-3\Szop\zh\MotorClient\MotorClient\obj\Debug\MotorClient.pdb

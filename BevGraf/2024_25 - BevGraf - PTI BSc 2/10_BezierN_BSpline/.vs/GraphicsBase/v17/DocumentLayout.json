@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\10_BezierN_BSpline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAFDDD3-ED84-49BE-8458-4BB5D450C2DF}|GraphicsBase\\GraphicsBase.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - bevgraf - pti bsc 2\\10_beziern_bspline\\graphicsbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FAFDDD3-ED84-49BE-8458-4BB5D450C2DF}|GraphicsBase\\GraphicsBase.csproj|solutionrelative:graphicsbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FAFDDD3-ED84-49BE-8458-4BB5D450C2DF}|GraphicsBase\\GraphicsBase.csproj|C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\10_BezierN_BSpline\\graphicsbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FAFDDD3-ED84-49BE-8458-4BB5D450C2DF}|GraphicsBase\\GraphicsBase.csproj|solutionrelative:graphicsbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExtensionGraphics.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs",
+              "RelativeDocumentMoniker": "..\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs",
+              "RelativeToolTip": "..\\GraphicsDLL\\GraphicsDLL\\ExtensionGraphics.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAjwBIBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:14:48.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\10_BezierN_BSpline\\GraphicsBase\\Form1.cs",
+              "RelativeDocumentMoniker": "GraphicsBase\\Form1.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\10_BezierN_BSpline\\GraphicsBase\\Form1.cs [Design]",
+              "RelativeToolTip": "GraphicsBase\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:11:14.296Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\10_BezierN_BSpline\\GraphicsBase\\Form1.cs",
+              "RelativeDocumentMoniker": "GraphicsBase\\Form1.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Bevezet\u00E9s a sz\u00E1m\u00EDt\u00F3g\u00E9pi grafik\u00E1ba\\2024_25 - BevGraf - PTI BSc 2\\10_BezierN_BSpline\\GraphicsBase\\Form1.cs",
+              "RelativeToolTip": "GraphicsBase\\Form1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T06:55:45.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

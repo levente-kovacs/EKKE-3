@@ -348,8 +348,8 @@ namespace DVD_szerver
 
     static void Main(string[] args)
         {
-        //string ip = ConfigurationManager.AppSettings["IP"];
-        IPAddress ip = IPAddress.Parse("127.0.0.1");
+            //string ip = ConfigurationManager.AppSettings["IP"];
+            IPAddress ip = IPAddress.Parse("127.0.0.1");
             //int port = int.Parse(ConfigurationManager.AppSettings["port"]);
             ReadingData();
             TcpListener listener = new TcpListener(ip, 44444);

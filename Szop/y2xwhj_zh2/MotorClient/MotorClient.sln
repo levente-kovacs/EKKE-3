@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorClient", "MotorClient\MotorClient.csproj", "{8A06511A-FFA7-435E-92C5-A681FCF3741C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A06511A-FFA7-435E-92C5-A681FCF3741C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A06511A-FFA7-435E-92C5-A681FCF3741C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A06511A-FFA7-435E-92C5-A681FCF3741C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A06511A-FFA7-435E-92C5-A681FCF3741C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C8C554F-246A-4B2B-97CB-205190C9E51F}
+	EndGlobalSection
+EndGlobal

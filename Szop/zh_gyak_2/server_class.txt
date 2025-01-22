@@ -1,0 +1,230 @@
+using System.Configuration;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Xml.Linq;
+
+namespace Szerver {
+    class User {
+        public string Nev { get; set; }
+        public string Jelszo { get; set; }
+        public uint Egyenleg { get; set; }
+        public User(string nev, string jelszo) {
+            Nev = nev;
+            Jelszo = jelszo;
+            Egyenleg = 0;
+        }
+    }
+    class Utalas {
+        public string Kitol { get; set; }
+        public string Mennyit { get; set; }
+        public string Kinek { get; set; }
+        public DateTime Mikor { get; private set; }
+        public Utalas(string kitol, string mennyit, string kinek) {
+            Kitol = kitol;
+            Mennyit = mennyit;
+            Kinek = kinek;
+            Mikor = DateTime.Now;
+        }
+    }
+    class Server {
+        const char sep = '|';
+        const string exitCode = "EXIT";
+        const string moreItemStart = "OK*";
+        const string moreItemStop = "OK!";
+
+        StreamReader sr;
+        StreamWriter sw;
+        string loginUser;
+        public Server(TcpClient tcpClient) {
+            sr = new StreamReader(tcpClient.GetStream(), Encoding.UTF8);
+            sw = new StreamWriter(tcpClient.GetStream(), Encoding.UTF8);
+            loginUser = "";
+        }
+        protected void Help() {
+            sw.WriteLine(moreItemStart);
+            sw.WriteLine($"LOGIN{sep}<nev>{sep}<jelszo>: Bejelentkezéshez.");
+            sw.WriteLine("LOGOUT: Kijelentkezés.");
+            sw.WriteLine($"FELTOLT{sep}<penzosszeg>: Egyenleg feltöltéshez.");
+            sw.WriteLine("LEKERDEZ: Egyenleg lekérdezése.");
+            sw.WriteLine($"UTAL{sep}<celuser>{sep}<osszeg>: Utalás másik felhasználónak.");
+            sw.WriteLine("UTALASOK : Utalások history.");
+            sw.WriteLine($"{exitCode}: Kapcsolat bontása.");
+            sw.WriteLine(moreItemStop);
+        }
+        protected void UtalasokListaja() {
+            if (Program.listUtalasok.Count > 0) {
+                sw.WriteLine(moreItemStart);
+                Program.listUtalasok.ForEach(x => sw.WriteLine($"{x.Kitol} utalt {x.Mennyit} Ft-ot {x.Kinek} felhasználónak."));
+                sw.WriteLine(moreItemStop);
+            } else {
+                sw.WriteLine($"ERR{sep}Nem történt még utalás.");
+            }
+        }
+        protected void Login(string name, string password) {
+            foreach (User user in Program.listUsers) {
+                if (user.Nev == name && user.Jelszo == password) {
+                    loginUser = name;
+                    sw.WriteLine($"Sikeres bejelentkezés.");
+                    break;
+                }
+            }
+            if (loginUser != name) {
+                sw.WriteLine($"ERR{sep}Helytelen felhasználónév vagy jelszó!");
+            }
+        }
+        void Logout() {
+            if (loginUser != "") {
+                loginUser = "";
+                sw.WriteLine($"OK.");
+            } else {
+                sw.WriteLine($"ERR{sep}Nem is volt login.");
+            }
+        }
+        void EgyelnegFeltolt(string osszeg) {
+            if (loginUser != "") {
+                foreach (User user in Program.listUsers) {
+                    if (user.Nev == loginUser) {
+                        user.Egyenleg += uint.Parse(osszeg);
+                        sw.WriteLine($"Új egyenleg: {user.Egyenleg} Ft.");
+                        break;
+                    }
+                }
+            } else {
+                sw.WriteLine($"ERR{sep}Egyenleg feltöltéshez előbb be kell jelentkezni!");
+            }
+        }
+        void EgyelnegLekerdez() {
+            if (loginUser != "") {
+                foreach (User user in Program.listUsers) {
+                    if (user.Nev == loginUser) {
+                        sw.WriteLine($"Egyenleg: {user.Egyenleg} Ft.");
+                        break;
+                    }
+                }
+            } else {
+                sw.WriteLine($"ERR{sep}Egyenleg lekérdezéshez előbb be kell jelentkezni!");
+            }
+        }
+        void Utal(string celuser, string osszeg) {
+            if (loginUser != "") {
+                uint aktEgyenleg = 0;
+                foreach(User user in Program.listUsers) {
+                    if (user.Nev == loginUser) {
+                        aktEgyenleg = user.Egyenleg;
+                        break;
+                    }
+                }
+                if (aktEgyenleg < int.Parse(osszeg)) {
+                    sw.WriteLine($"ERR{sep}Nincs elég fedezet az utaláshoz.");
+                } else {
+                    bool celUserLetezik = false;
+                    foreach (User user in Program.listUsers) {
+                        if (user.Nev == celuser) {
+                            celUserLetezik = true;
+                            user.Egyenleg += uint.Parse(osszeg);
+                            break;
+                        }
+                    }
+                    if (!celUserLetezik) {
+                        Console.WriteLine($"ERR{sep}A cél felhasználó nem található.");
+                    } else {
+                        foreach (User user in Program.listUsers) {
+                            if (user.Nev == loginUser) {
+                                user.Egyenleg -= uint.Parse(osszeg);
+                                break;
+                            }
+                        }
+                        Program.listUtalasok.Add(new Utalas(loginUser, osszeg, celuser));
+                    }
+                }
+            } else {
+                sw.WriteLine($"ERR{sep}Utaláshoz előbb be kell jelentkezni!");
+            }
+        }
+        public void StartKomm() {
+            sw.WriteLine("ManiTranszfer projekt - Küld el a HELP parancsot az elérhető parancsokért!");
+            sw.Flush();
+
+            bool ok = true;
+            bool aborted = false;
+            while (ok) {
+                string commandLine = "";
+                try {
+                    commandLine = sr.ReadLine();
+                    string[] parts = commandLine.Split(sep);
+                    switch (parts[0].ToUpper()) {
+                        case "HELP":
+                            Help();
+                            break;
+                        case "LOGIN":
+                            Login(parts[1], parts[2]);
+                            break;
+                        case "LOGOUT":
+                            Logout();
+                            break;
+                        case "LEKERDEZ":
+                            EgyelnegLekerdez();
+                            break;
+                        case "FELTOLT":
+                            EgyelnegFeltolt(parts[1]);
+                            break;
+                        case "UTAL":
+                            Utal(parts[1], parts[2]);
+                            break;
+                        case "UTALASOK":
+                            UtalasokListaja();
+                            break;
+                        case exitCode:
+                            sw.WriteLine($"OK{sep}A kliens elköszönt.");
+                            ok = false;
+                            break;
+                        default:
+                            sw.WriteLine($"ERR{sep}Helytelen parancs!");
+                            break;
+                    }
+                } catch (Exception e) {
+                    sw.WriteLine($"ERR{sep}{e.Message}");
+                }
+                try {
+                    sw.Flush();
+                } catch {
+                    ok = false;
+                }
+            }
+        }
+    }
+    internal class Program {
+        public static List<User> listUsers = new List<User>();
+        public static List<Utalas> listUtalasok = new List<Utalas>();
+        static void ReadFiles() {
+            string[] users = File.ReadAllLines("juserek.txt", Encoding.Default);
+            foreach (string line in users) {
+                string[] parts = line.Split(';');
+                listUsers.Add(new User(parts[0], parts[1]));
+            }
+        }
+        static void Main(string[] args) {
+            ReadFiles();
+
+            string ipFromConf = ConfigurationManager.AppSettings["IP"];
+            string portFromConf = ConfigurationManager.AppSettings["port"];
+
+            IPAddress ip = IPAddress.Parse(ipFromConf);
+            int port = int.Parse(portFromConf);
+
+            TcpListener tcpListener = new TcpListener(ip, port);
+            tcpListener.Start();
+
+            Console.WriteLine($"A szerver elindult. IP: {ip} port: {port}");
+
+            while (true) {
+                TcpClient tcpClient = tcpListener.AcceptTcpClient();
+                Console.WriteLine("Egy új kliens csatlakozott.");
+                Server server = new Server(tcpClient);
+                Thread th = new Thread(server.StartKomm);
+                th.Start();
+            }
+        }
+    }
+}
