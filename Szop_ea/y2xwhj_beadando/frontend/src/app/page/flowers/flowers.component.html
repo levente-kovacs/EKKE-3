@@ -1,0 +1,42 @@
+<div class="background"></div>
+<div class="nav-gap">
+  <div class="d-flex flex-column align-items-center min-vh-100">
+    <div *ngIf="list$ | async as list" class="container d-flex flex-row flex-wrap align-items-center justify-content-center mt-5">
+      <div *ngFor="let flower of list" class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 ">
+        <div class="card m-2 d-flex flex-column justify-content-between" style="height: 28rem;">
+          <div class="card-header">
+            {{ flower.name }}
+          </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><small><small>Évforduló:</small> {{ flower.anniversary }}</small> </li>
+              <li class="list-group-item"><small><small>Hónap:</small> {{ flower.month }}</small></li>
+              <li class="list-group-item"><small><small>Mikor:</small> {{ flower.when }}</small></li>
+              <li *ngFor="let meaning of flower.meanings" class="list-group-item">
+                <small>Jelentés:</small><small> {{ meaning.text }}</small>
+              </li>
+              <!-- <li class="list-group-item"><small>Active: </small>
+                <fa-icon *ngIf="flower.active" class="text-green" [icon]="faCheck"></fa-icon>
+                <fa-icon *ngIf="!flower.active" class="text-red" [icon]="faXmark"></fa-icon>
+              </li> -->
+              <li *ngIf="loggedToken" class="card-footer d-flex flex-row justify-content-between col-12">
+                <button class="btn" (click)="onEditOne(flower)">
+                  <fa-icon class="text-green" [icon]="faPenToSquare"></fa-icon>
+                </button>
+                <button class="btn" (click)="flower._id ? deleteflower(flower._id) : null">
+                  <fa-icon class="text-red" [icon]="faTrashCan"></fa-icon>
+                </button>
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3">
+        <div class="card m-2  d-flex align-items-center justify-content-center" style="height: 28rem;">
+          <button class="col-12 h-100" [routerLink]="['/flower-editor', '']" mat-raised-button>
+            <fa-icon class="add" [icon]="faSquarePlus"></fa-icon>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<div class="background"></div>
+<div class="nav-gap">
+<div class="container my-5">
+  <div class="row">
+    <main *ngIf="(flower$ | async) as flower" class="col-lg-6 offset-lg-3">
+      <div class="bg-darken-wrap text-white">
+        <h1 class="game-played text-shadow mb-4">Flower data</h1>
+        <form (ngSubmit)="onUpdate(flower)" #flowerForm="ngForm">
+
+          <div class="form-outline mb-4">
+            <input [(ngModel)]="flower._id" type="text" id="id" class="form-control" name="id" disabled/>
+            <label class="form-label" for="id">#</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input [(ngModel)]="flower.name" type="text" id="questionType" class="form-control" name="questionType" required/>
+            <label class="form-label" for="questionType">Name</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input [(ngModel)]="flower.anniversary" type="number" id="question" class="form-control" name="question" required/>
+            <label class="form-label" for="question">Anniversary</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input [(ngModel)]="flower.month" type="number" id="answer1" class="form-control" name="answer1" required/>
+            <label class="form-label" for="answer1">Month</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input [(ngModel)]="flower.when" type="date" id="answer2" class="form-control" name="answer2" required/>
+            <label class="form-label" for="answer2">When</label>
+          </div>
+
+          <div *ngIf="flower?.meanings?.length !== 0">
+            <div *ngFor="let meaning of flower?.meanings" class="form-outline mb-4">
+              <input [(ngModel)]="meaning.text" type="text" id="meaning" class="form-control" name="meaning" required/>
+              <label class="form-label" for="meaning">Meaning</label>
+            </div>
+          </div>
+
+          <div *ngIf="flower.meanings && flower.meanings.length == 0">
+            <div class="form-outline mb-4">
+              <input [(ngModel)]="flower.meanings[meaningCount].text" type="text" id="meaning" class="form-control" name="meaning" required/>
+              <label class="form-label" for="meaning">Meaning</label>
+              <button (click)="addMeaningCount()" type="button" class="btn btn-primary btn-block px-5">
+                <fa-icon class="text-white" [icon]="faPlus"></fa-icon>
+              </button>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <button [disabled]="flowerForm.invalid" type="submit" class="btn btn-primary btn-block px-5">
+              <fa-icon class="text-white" [icon]="faSave"></fa-icon>
+            </button>
+            <small><a [routerLink]="['/admin-home']" class="text-white">Cancel</a></small>
+          </div>
+
+        </form>
+
+      </div>
+
+    </main>
+  </div>
+</div>

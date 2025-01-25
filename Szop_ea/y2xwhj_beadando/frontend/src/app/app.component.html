@@ -1,0 +1,14 @@
+<div class="nunito-400 page d-flex flex-column min-vh-100">
+  <app-navbar [inputSidenav]="sideNav" [inputSidenavState]="sideNav.opened"></app-navbar>
+  <mat-sidenav-container hasBackdrop="false">
+    <mat-sidenav #sideNav mode="over" position="end" fixedInViewport="true" [style.marginTop.px]="74">
+      <app-sidenav [inputSidenavClose]="sideNav"></app-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content [ngStyle]="{ 'height' : sideNav.opened ? '100vh' : 'initial', 'overflow': sideNav.opened ? 'hidden' : 'initial'}">
+      <router-outlet></router-outlet>
+      <!-- <app-footer class="footer mt-auto"></app-footer> -->
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+<!-- <app-footer class="footer mt-auto"></app-footer> -->

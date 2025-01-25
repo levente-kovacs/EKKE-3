@@ -1,0 +1,60 @@
+<div class="background"></div>
+<div class="nav-gap">
+  <main class="container my-5 d-flex align-items-center justify-content-center min-vh-100">
+    <section class="bg-darken-wrap game-played text-white p-4 rounded shadow-lg">
+      <div class="py-3">
+        <h2 class="mb-3">Search Flowers by Name</h2>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" [(ngModel)]="searchWord" placeholder="Enter flower name" />
+          <button class="btn btn-primary" (click)="searchByName()">Search</button>
+        </div>
+        <div *ngFor="let flower of flowers" class="col-12">
+          <div class="card m-2 d-flex flex-column justify-content-between" style="height: 28rem;">
+            <div class="card-header">
+              {{ flower.name }}
+            </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><small><small>Évforduló:</small> {{ flower.anniversary }}</small> </li>
+                <li class="list-group-item"><small><small>Hónap:</small> {{ flower.month }}</small></li>
+                <li class="list-group-item"><small><small>Mikor:</small> {{ flower.when }}</small></li>
+                <li *ngFor="let meaning of flower.meanings" class="list-group-item">
+                  <small>Jelentés:</small><small> {{ meaning.text }}</small>
+                </li>
+                <!-- <li class="list-group-item"><small>Active: </small>
+                  <fa-icon *ngIf="flower.active" class="text-green" [icon]="faCheck"></fa-icon>
+                  <fa-icon *ngIf="!flower.active" class="text-red" [icon]="faXmark"></fa-icon>
+                </li> -->
+                <!-- <li class="card-footer d-flex flex-row justify-content-between col-12">
+                  <button class="btn" (click)="onEditOne(flower)">
+                    <fa-icon class="text-green" [icon]="faPenToSquare"></fa-icon>
+                  </button>
+                  <button class="btn" (click)="flower._id ? deleteflower(flower._id) : null">
+                    <fa-icon class="text-red" [icon]="faTrashCan"></fa-icon>
+                  </button>
+                </li> -->
+              </ul>
+          </div>
+        </div>
+          <!-- <ul class="list-group">
+          <li class="list-group-item" *ngFor="let flower of flowers">{{ flower.name }}</li>
+        </ul> -->
+      </div>
+
+      <div class="py-3">
+        <h2 class="mb-3">Flowers for Summer and Autumn</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let flower of summerAutumnFlowers">{{ flower.month }}: {{ flower.name }}</li>
+        </ul>
+      </div>
+
+      <div class="py-3">
+        <h2 class="mb-3">Most Common Flower Meaning</h2>
+        <ul class="list-group">
+          <p class="list-group-item lead">{{ mostCommonMeaning?.meaning }} ({{ mostCommonMeaning?.count }})</p>
+          <!-- <li class="list-group-item" *ngFor="let flower of summerAutumnFlowers">{{ flower.month }}: {{ flower.name }}</li> -->
+        </ul>
+
+      </div>
+    </section>
+  </main>
+</div>

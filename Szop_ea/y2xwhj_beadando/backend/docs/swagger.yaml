@@ -1,0 +1,372 @@
+openapi: 3.0.0
+info:
+  title: Flower API
+  version: 1.0.0
+  description: API for managing flowers with JWT authentication
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    User:
+      type: object
+      properties:
+        username:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+    Flower:
+      type: object
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+        anniversary:
+          type: string
+        month:
+          type: number
+        when:
+          type: string
+          format: date-time
+        meanings:
+          type: array
+          items:
+            type: string
+    Meaning:
+      type: object
+      properties:
+        text:
+          type: string
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+          example: An error occurred
+paths:
+  /api/auth/register:
+    post:
+      summary: Register a new user
+      operationId: registerUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '201':
+          description: User registered
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+        '400':
+          description: User already exists
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /api/auth/login:
+    post:
+      summary: Login a user
+      operationId: loginUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+        '401':
+          description: Invalid email or password
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /api/flowers:
+    get:
+      summary: Get all flowers
+      operationId: getAllFlowers
+      responses:
+        '200':
+          description: A list of flowers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Flower'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      summary: Create a new flower
+      operationId: createFlower
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Flower'
+      responses:
+        '201':
+          description: Flower created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Flower'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /api/flowers/{id}:
+    get:
+      summary: Get a flower by ID
+      operationId: getFlowerById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the flower to retrieve
+      responses:
+        '200':
+          description: A single flower
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Flower'
+        '400':
+          description: Invalid ID
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Flower not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      summary: Update a flower by ID
+      operationId: updateFlower
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the flower to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Flower'
+      responses:
+        '200':
+          description: Flower updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Flower'
+        '400':
+          description: Invalid ID
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Flower not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      summary: Delete a flower by ID
+      operationId: deleteFlower
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the flower to delete
+      responses:
+        '200':
+          description: Flower deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '400':
+          description: Invalid ID
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Flower not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /api/flowers/search/{word}:
+    get:
+      summary: Search flowers by name
+      operationId: searchFlowersByName
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: word
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The word to search for in flower names
+      responses:
+        '200':
+          description: Matching flowers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Flower'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /api/flowers/spec/summer-autumn:
+    get:
+      summary: Get flowers for summer and autumn months
+      operationId: getFlowersForSummerAutumn
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Flowers for summer and autumn
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    month:
+                      type: number
+                    name:
+                      type: string
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /api/flowers/spec/most-common-meaning:
+    get:
+      summary: Get the most common meaning
+      operationId: getMostCommonMeaning
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Most common meaning and count
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meaning:
+                    type: string
+                  count:
+                    type: number
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
